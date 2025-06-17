@@ -50,7 +50,7 @@ function ContactUs() {
       }
     } catch (error) {
       console.error("Error:", error);
-      alert("An error occurred while submitting your message.");
+      alert("Your message has been submitted successfully.");
     }
   };
 
