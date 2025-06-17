@@ -1,3 +1,3 @@
 # travelbuddy
 This project involves creating a website that offers picnic packages  to popular destinations. Users can select a travel guide as part of  the package. Additionally, the website provides insights into various popular  events and attractions around Bangalore. 
-[Download the PDF](travel__buddy/TRAVEL_BUDDY.pdf)
+[Download the PDF](TravelBuddy/TRAVEL_BUDDY(1).pdf)
