@@ -3,7 +3,9 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const port = 5050;
+
+// Use the port assigned by Render or fallback to 5050 for local testing
+const port = process.env.PORT || 5050;
 
 // Middleware
 app.use(cors());
@@ -36,7 +38,7 @@ app.post('/verify-payment', (req, res) => {
   }
 });
 
-// Start the server on port 5050
+// Start the server on the assigned port
 app.listen(port, () => {
   console.log(`Mock server running at http://localhost:${port}`);
 });
